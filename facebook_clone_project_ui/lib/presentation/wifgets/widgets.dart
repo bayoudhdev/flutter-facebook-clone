@@ -7,3 +7,5 @@ export 'rounded_button.dart';
 export 'external_item_story.dart';
 export 'add_my_story.dart';
 export 'list_of_stories.dart';
+export 'personal_action_click.dart';
+export 'add_story_button.dart';

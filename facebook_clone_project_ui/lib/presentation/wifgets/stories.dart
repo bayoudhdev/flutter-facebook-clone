@@ -1,7 +1,9 @@
 import 'package:facebook_clone_project_ui/config/size_config.dart';
 import 'package:facebook_clone_project_ui/models/models.dart';
+import 'package:facebook_clone_project_ui/presentation/cubits/scroll_item_story/scroll_item_story_cubit.dart';
 import 'package:facebook_clone_project_ui/presentation/wifgets/widgets.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
 
 class Stories extends StatefulWidget {
   final User currentUser;
@@ -16,19 +18,23 @@ class Stories extends StatefulWidget {
 
 class _StoriesState extends State<Stories> {
   ScrollController _scrollController;
-  double offset = 0.0;
 
   @override
   void initState() {
     _scrollController = ScrollController();
     _scrollController.addListener(() {
-      print(
-          '${_scrollController.offset}--- ${(_scrollController.offset / 100).clamp(0, 1).toDouble()}');
-      setState(() {
-        offset = _scrollController.offset > 0 ? _scrollController.offset : 0.0;
-      });
+      context.bloc<ScrollItemStoryCubit>().setOffset(
+          _scrollController.offset > 0
+              ? (_scrollController.offset / 200).clamp(0, 1).toDouble()
+              : 0.0);
     });
     super.initState();
+  }
+
+  @override
+  void dispose() {
+    _scrollController?.dispose();
+    super.dispose();
   }
 
   @override
@@ -46,7 +52,11 @@ class _StoriesState extends State<Stories> {
                   scrollController: _scrollController,
                   stories: widget.stories,
                 ),
-                AddMyStory(offset: offset, widget: widget)
+                BlocBuilder<ScrollItemStoryCubit, double>(
+                  builder: (context, scrollOffset) {
+                    return AddMyStory(offset: scrollOffset, widget: widget);
+                  },
+                )
               ],
             ),
           ),

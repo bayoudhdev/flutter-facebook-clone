@@ -1,109 +1,116 @@
 import 'package:facebook_clone_project_ui/models/models.dart';
 
 final User currentUser = User(
-  name: 'Marcus Ng',
+  name: 'Bayoudh Mohamed',
   imageUrl:
-      'https://images.unsplash.com/photo-1578133671540-edad0b3d689e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1351&q=80',
+      'https://pbs.twimg.com/profile_images/1076566327601573888/zF1dghk4_400x400.jpg',
 );
 
 final List<User> onlineUsers = [
   User(
     name: 'David Brooks',
     imageUrl:
-        'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80',
+        'https://pbs.twimg.com/profile_images/1306018406836166659/4DOKjaFg_400x400.jpg',
   ),
   User(
-    name: 'Jane Doe',
+    name: 'Actu Foot',
     imageUrl:
-        'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80',
+        'https://pbs.twimg.com/profile_images/1079542234465341442/uNUlKEw__400x400.jpg',
   ),
   User(
-    name: 'Matthew Hinkle Matthew Hinkle Matthew Hinkle ',
+    name: 'Mélissa Bounoua ',
     imageUrl:
-        'https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1331&q=80',
+        'https://pbs.twimg.com/profile_images/1135123135081172992/63ul8tff_400x400.jpg',
   ),
   User(
-    name: 'Amy Smith',
+    name: 'Cristiano Ronaldo',
     imageUrl:
-        'https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=80',
+        'https://pbs.twimg.com/profile_images/1157313327867092993/a09TxL_1_400x400.jpg',
   ),
   User(
     name: 'Ed Morris',
     imageUrl:
-        'https://images.unsplash.com/photo-1521119989659-a83eee488004?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=664&q=80',
+        'https://pbs.twimg.com/profile_images/1282763686663213057/xlgRe_pG_400x400.jpg',
   ),
   User(
     name: 'Carolyn Duncan',
     imageUrl:
-        'https://images.unsplash.com/photo-1544005313-94ddf0286df2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80',
+        'https://pbs.twimg.com/profile_images/1283112090157408256/wUNzIvDl_400x400.jpg',
   ),
   User(
     name: 'Paul Pinnock',
     imageUrl:
-        'https://images.unsplash.com/photo-1519631128182-433895475ffe?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80',
-  ),
-  User(
-      name: 'Elizabeth Wong',
-      imageUrl:
-          'https://images.unsplash.com/photo-1515077678510-ce3bdf418862?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjF9&auto=format&fit=crop&w=675&q=80'),
-  User(
-    name: 'James Lathrop',
-    imageUrl:
-        'https://images.unsplash.com/photo-1528892952291-009c663ce843?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=592&q=80',
-  ),
-  User(
-    name: 'Jessie Samson',
-    imageUrl:
-        'https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80',
+        'https://pbs.twimg.com/profile_images/378800000231912594/6f6d05d23c1b30d03f1c05d01bc43815_400x400.jpeg',
   ),
   User(
     name: 'David Brooks',
     imageUrl:
-        'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80',
+        'https://pbs.twimg.com/profile_images/1306018406836166659/4DOKjaFg_400x400.jpg',
   ),
   User(
-    name: 'Jane Doe',
+    name: 'Actu Foot',
     imageUrl:
-        'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80',
+        'https://pbs.twimg.com/profile_images/1079542234465341442/uNUlKEw__400x400.jpg',
   ),
   User(
-    name: 'Matthew Hinkle',
+    name: 'Mélissa Bounoua ',
     imageUrl:
-        'https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1331&q=80',
+        'https://pbs.twimg.com/profile_images/1135123135081172992/63ul8tff_400x400.jpg',
   ),
   User(
-    name: 'Amy Smith',
+    name: 'Cristiano Ronaldo',
     imageUrl:
-        'https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=80',
+        'https://pbs.twimg.com/profile_images/1157313327867092993/a09TxL_1_400x400.jpg',
   ),
   User(
     name: 'Ed Morris',
     imageUrl:
-        'https://images.unsplash.com/photo-1521119989659-a83eee488004?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=664&q=80',
+        'https://pbs.twimg.com/profile_images/1282763686663213057/xlgRe_pG_400x400.jpg',
   ),
   User(
     name: 'Carolyn Duncan',
     imageUrl:
-        'https://images.unsplash.com/photo-1544005313-94ddf0286df2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80',
+        'https://pbs.twimg.com/profile_images/1283112090157408256/wUNzIvDl_400x400.jpg',
   ),
   User(
     name: 'Paul Pinnock',
     imageUrl:
-        'https://images.unsplash.com/photo-1519631128182-433895475ffe?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80',
+        'https://pbs.twimg.com/profile_images/378800000231912594/6f6d05d23c1b30d03f1c05d01bc43815_400x400.jpeg',
   ),
   User(
-      name: 'Elizabeth Wong',
-      imageUrl:
-          'https://images.unsplash.com/photo-1515077678510-ce3bdf418862?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjF9&auto=format&fit=crop&w=675&q=80'),
-  User(
-    name: 'James Lathrop',
+    name: 'David Brooks',
     imageUrl:
-        'https://images.unsplash.com/photo-1528892952291-009c663ce843?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=592&q=80',
+        'https://pbs.twimg.com/profile_images/1306018406836166659/4DOKjaFg_400x400.jpg',
   ),
   User(
-    name: 'Jessie Samson',
+    name: 'Actu Foot',
     imageUrl:
-        'https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80',
+        'https://pbs.twimg.com/profile_images/1079542234465341442/uNUlKEw__400x400.jpg',
+  ),
+  User(
+    name: 'Mélissa Bounoua ',
+    imageUrl:
+        'https://pbs.twimg.com/profile_images/1135123135081172992/63ul8tff_400x400.jpg',
+  ),
+  User(
+    name: 'Cristiano Ronaldo',
+    imageUrl:
+        'https://pbs.twimg.com/profile_images/1157313327867092993/a09TxL_1_400x400.jpg',
+  ),
+  User(
+    name: 'Ed Morris',
+    imageUrl:
+        'https://pbs.twimg.com/profile_images/1282763686663213057/xlgRe_pG_400x400.jpg',
+  ),
+  User(
+    name: 'Carolyn Duncan',
+    imageUrl:
+        'https://pbs.twimg.com/profile_images/1283112090157408256/wUNzIvDl_400x400.jpg',
+  ),
+  User(
+    name: 'Paul Pinnock',
+    imageUrl:
+        'https://pbs.twimg.com/profile_images/378800000231912594/6f6d05d23c1b30d03f1c05d01bc43815_400x400.jpeg',
   ),
 ];
 
@@ -111,23 +118,23 @@ final List<Story> stories = [
   Story(
     user: onlineUsers[2],
     imageUrl:
-        'https://images.unsplash.com/photo-1498307833015-e7b400441eb8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1400&q=80',
+        'https://pbs.twimg.com/media/BQ2bvLeCUAA-vre?format=jpg&name=900x900',
   ),
   Story(
     user: onlineUsers[6],
     imageUrl:
-        'https://images.unsplash.com/photo-1499363536502-87642509e31b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80',
+        'https://pbs.twimg.com/media/BQ7khhQCMAAmudJ?format=jpg&name=small',
     isViewed: true,
   ),
   Story(
     user: onlineUsers[3],
     imageUrl:
-        'https://images.unsplash.com/photo-1497262693247-aa258f96c4f5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=624&q=80',
+        'https://pbs.twimg.com/media/EktoRvrWkAA37iF?format=jpg&name=small',
   ),
   Story(
     user: onlineUsers[9],
     imageUrl:
-        'https://images.unsplash.com/photo-1496950866446-3253e1470e8e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80',
+        'https://pbs.twimg.com/media/EkqCUl0UUAE8HT4?format=jpg&name=small',
     isViewed: true,
   ),
   Story(

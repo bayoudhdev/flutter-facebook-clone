@@ -29,3 +29,9 @@ facebook_clone_project_ui/android/gradle.properties
 facebook_clone_project_ui/ios/Flutter/Debug.xcconfig
 
 facebook_clone_project_ui/ios/Flutter/Release.xcconfig
+
+facebook_clone_project_ui/ios/Runner.xcworkspace/contents.xcworkspacedata
+
+facebook_clone_project_ui/ios/Podfile.lock
+
+facebook_clone_project_ui/ios/Runner.xcodeproj/project.pbxproj

@@ -17,7 +17,7 @@ class ListOfStories extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return ListView.builder(
-      padding: EdgeInsets.only(left: getProportionateScreenWidth(115.0)),
+      padding: EdgeInsets.only(left: getProportionateScreenWidth(120.0)),
       controller: _scrollController,
       physics: ClampingScrollPhysics(),
       scrollDirection: Axis.horizontal,
