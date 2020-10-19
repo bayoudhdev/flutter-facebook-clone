@@ -21,3 +21,11 @@ doc/api/
 *.js.map
 
 .DS_Store
+
+facebook_clone_project_ui/ios/Podfile
+
+facebook_clone_project_ui/android/gradle.properties
+
+facebook_clone_project_ui/ios/Flutter/Debug.xcconfig
+
+facebook_clone_project_ui/ios/Flutter/Release.xcconfig
