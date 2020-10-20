@@ -1,9 +1,9 @@
 import 'package:facebook_clone_project_ui/models/models.dart';
 
 final User currentUser = User(
-  name: 'Bayoudh Mohamed',
+  name: 'Test me',
   imageUrl:
-      'https://pbs.twimg.com/profile_images/1076566327601573888/zF1dghk4_400x400.jpg',
+      'https://pbs.twimg.com/profile_images/1306018406836166659/4DOKjaFg_400x400.jpg',
 );
 
 final List<User> onlineUsers = [

@@ -1,6 +1,6 @@
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:facebook_clone_project_ui/config/size_config.dart';
-import 'package:facebook_clone_project_ui/presentation/wifgets/widgets.dart';
+import 'package:facebook_clone_project_ui/presentation/widgets/widgets.dart';
 import 'package:flutter/material.dart';
 
 class AddMyStory extends StatelessWidget {

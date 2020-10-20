@@ -2,7 +2,7 @@ import 'package:facebook_clone_project_ui/config/palette.dart';
 import 'package:facebook_clone_project_ui/config/size_config.dart';
 import 'package:facebook_clone_project_ui/data/data.dart';
 import 'package:facebook_clone_project_ui/presentation/cubits/cubits.dart';
-import 'package:facebook_clone_project_ui/presentation/wifgets/widgets.dart';
+import 'package:facebook_clone_project_ui/presentation/widgets/widgets.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
