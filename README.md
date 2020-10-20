@@ -1,7 +1,6 @@
 # facebook_clone_project_ui
 
-![Video](https://www.youtube.com/watch?v=9is0cnSA6KU)
-
+[YouTube Tutorial](https://www.youtube.com/watch?v=9is0cnSA6KU)
 
 ## Getting Started
 
