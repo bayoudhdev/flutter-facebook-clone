@@ -1,7 +1,7 @@
 import 'package:facebook_clone_project_ui/config/size_config.dart';
 import 'package:facebook_clone_project_ui/models/models.dart';
 import 'package:facebook_clone_project_ui/presentation/cubits/scroll_item_story/scroll_item_story_cubit.dart';
-import 'package:facebook_clone_project_ui/presentation/wifgets/widgets.dart';
+import 'package:facebook_clone_project_ui/presentation/widgets/widgets.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
